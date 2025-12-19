@@ -49,6 +49,17 @@ public class User {
     @Column(name = "baekjun_id", nullable = false, length = 36)
     private String baekjunId;
 
+    @Column(name = "github_id", length = 50)
+    private String githubId;
+
+    // solved.ac 정보
+    @Column(name = "solved_count")
+    @Builder.Default
+    private Integer solvedCount = 0;
+
+    @Column(name = "tier", length = 20)
+    private String tier;
+
 
     @PrePersist
     public void generateUuid() {
