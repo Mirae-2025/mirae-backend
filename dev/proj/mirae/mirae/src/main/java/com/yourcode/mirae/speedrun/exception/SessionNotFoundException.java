@@ -1,0 +1,7 @@
+package com.yourcode.mirae.speedrun.exception;
+
+public class SessionNotFoundException extends RuntimeException {
+    public SessionNotFoundException(String sessionId) {
+        super("Session not found: " + sessionId);
+    }
+}
