@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew compileJava:*)",
+      "Bash(dir /b \"C:\\\\Users\\\\jungy\\\\dev\\\\proj\\\\mirae\\\\mirae\\\\src\\\\main\\\\java\\\\com\\\\yourcode\\\\mirae\\\\auth\"\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
